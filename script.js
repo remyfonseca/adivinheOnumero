@@ -25,6 +25,13 @@ function verifyNumber() {
   }
 }
 
+document.getElementById("bet").addEventListener("keyup", function(event) {
+  if (event.code === "Enter") {
+    event.preventDefault();
+    verifyNumber();
+  }
+});
+
 var betInput = document.getElementById('bet');
 
 betInput.addEventListener('input', function() {

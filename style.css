@@ -54,7 +54,7 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     background-color: rgb(79, 85, 167);
-    border: none;
+    border:1.2px solid rgb(25, 26, 48);
     border-radius: .6rem;
     color: #fff;
     margin-top: 2rem;
@@ -64,6 +64,12 @@ body {
 
 .content button:hover{
     background-color: rgb(11, 26, 75)
+}
+
+#response{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
 }
 
 footer{
